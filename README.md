@@ -4,7 +4,8 @@
 
 2、Open the source code 64685b/admin_weixin.php code audit
 
-3、![image](https://github.com/Q1M0Sec/seacms/assets/102501236/bdd34895-d2b1-4d7c-92fb-8186b112a210)
+3、![image](https://github.com/Q1M0Sec/seacms/assets/102501236/b35eebae-f939-4212-9b68-e2dbf9beafe9)
+
 
 4、There is arbitrary file write in the $dpic variable, and other accepted variables have filter characters
 
