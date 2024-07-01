@@ -1,4 +1,4 @@
-# SeaCMS has a command execution vulnerability
+# SeaCMS has multiple command execution vulnerabilities
 
 1、Download the latest ocean cms source code
 
@@ -53,6 +53,8 @@
 
 26、Also executed successfully!!!
 
+27、In the same code file, there are 17 variables that allow writing. They are: $dpic, $isopen, $url, $ckmov_url, $topage, $dwz, $dwztoken, $msg1a, $msg1b, $msg2a, $msg2b, $msg3a, $msg3b, $msg4a, $msg4b, $msg5a, and $msg5b.
 
+28、These variables can all be used to write to files and execute commands using the method described earlier.
 
 
